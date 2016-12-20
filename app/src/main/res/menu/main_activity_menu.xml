@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/menu1"
         android:title="menu1" />
@@ -9,9 +10,11 @@
 
     <item android:id="@+id/menu3"
         android:icon="@mipmap/home_icon"
+        app:showAsAction="always"
         android:title="menu3" />
 
     <item android:id="@+id/menu4"
+        app:showAsAction="always"
         android:icon="@mipmap/ic_launcher_2"
         android:title="menu4" />
 </menu>
