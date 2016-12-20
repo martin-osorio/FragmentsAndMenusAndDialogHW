@@ -23,17 +23,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/Button_PrefFragment"
         android:text="Pref Fragment"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="30dp"
+        android:onClick="onPrefsClick"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Button_FragmentNoUI"
         android:text="Fragment no UI"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="30dp"
+        android:onClick="onFragmentClick"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Button_Dialog"
         android:text="Dialog"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="30dp"
+        android:onClick="onDialogClick"/>
 </LinearLayout>
