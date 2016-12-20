@@ -1,5 +1,6 @@
 package com.example.martinosorio.mixedhomework;
 
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onDialogClick(View view) {
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setMessage("Do you like iOS?");
+        alertDialogBuilder.setNegativeButton("Nah", null);
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
     }
 
     public void onFragmentClick(View view) {
