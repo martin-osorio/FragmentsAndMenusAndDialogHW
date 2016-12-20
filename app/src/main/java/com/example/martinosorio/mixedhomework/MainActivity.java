@@ -26,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_activity_menu, menu);
-        //super.onCreateOptionsMenu(menu);
-        //menu.add("Home").setIcon(R.drawable.one);
         return true;
     }
 
@@ -43,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PrefsActivity.class);
         startActivity(intent);
     }
-
 
     public void onFragmentClick(View view) {
         FragmentManager fragmentManager = getSupportFragmentManager();

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory
-        android:title="Section A" >
+    <PreferenceCategory android:title="Section A">
 
         <CheckBoxPreference
             android:key="checkbox_preference"
-            android:title="First preference"
-            android:summary="idk">
+            android:summary="idk"
+            android:title="First preference">
 
         </CheckBoxPreference>
     </PreferenceCategory>
